@@ -44,6 +44,10 @@ function insertStat(address playerAddress, uint tds, uint rush, uint recs, uint 
     return true;
 }
 
+function showStats(address player) public view returns(struct){
+    return 
+}
+
 
 //Draft a player
 
