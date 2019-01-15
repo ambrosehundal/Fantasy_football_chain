@@ -4,6 +4,7 @@ contract Draft{
 
 address[32] public team_owners;
 
+
 //mapping of SB rings
 mapping(address => uint) public superbowl_rings;
 
@@ -18,6 +19,14 @@ struct PlayerStat{
     bool winSB_next_year;
     uint overall_skill_level;
 } 
+
+//player skills levels
+   
+    uint constant amateur = 1;
+    uint constant pro = 2;
+    uint constant elite = 3;
+    uint constant hof = 4;
+
 
 
 //mapping of best 32 players game stat
